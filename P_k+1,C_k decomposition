@@ -1,0 +1,223 @@
+def binaryarray(n, genarr, k,fc):
+    a=j=1
+    b=c=ffc=0
+    while j<((2**n)+1):
+        if c%fc==0:
+            a,b=b,a
+        genarr[j-1][k]=a
+        c+=1
+        j+=1
+    return genarr
+def printarr(arr,n):
+    for i in range(0,(2**n)):
+        print("")
+        for j in range(0,n):
+            print(arr[i][j],end=" ")
+    print("")
+def oddeven(arr,n):
+    print("\nVertices\n")
+    for i in range(0,(2**n)):
+        sum=0
+        for j in range(0,n):
+            sum+=arr[i][j]
+        if sum%2==0 or sum==0:
+            earr.append(arr[i])
+        else:
+            oarr.append(arr[i])
+    for i in range(1,len(earr)+1):
+        print("x"+str(i)+"=",end="")
+        for j in range(0,n):
+            print(earr[i-1][j],end="")
+        print("")
+        print("y"+str(i)+"=",end="")
+        for j in range(0,n):
+            print(oarr[i-1][j],end="")
+        print("")
+def signtgen(n):
+    global signarr
+    signarr=[[1 for er in range(0,n)] for ec in range(0,(2**(int((n/2)-1))))]
+    #print("Sign Table")
+    nfs=int((n/2)-1)
+    signfillarr = [[0 for er in range(0,nfs)] for ec in range(0,(2**nfs))]
+    for i in range(1,nfs+1):
+        signfillarr=binaryarray(nfs,signfillarr,nfs-i,(2**i)/2)
+    for i in range (0,2**nfs):
+        for j in range(0,nfs):
+            if signfillarr[i][j]==0:
+                signarr[i][j]=1
+                signarr[i][j+(int((n/2)))]=-1
+            else:
+                signarr[i][j]=-1
+    for i in range(0,2**nfs):
+        signarr[i][n-1]=-1
+    #for i in range (0,(2**nfs)):
+        #print(signarr[i])
+def basegen(n):
+    global basearr
+    basearr=[]
+    i=2
+    while (n-i)!=(int((n/2))-1):
+        basearr.append(2**(n-i))
+        i+=1
+    basearr.append(2**(n-i))
+    basearr.extend(basearr)
+    #print(basearr)
+def adj(n):
+    print("\nAdjacency\n")
+    for i in range(1,(2**(n-1))+1):
+        print("x"+str(i)+" is adjacent to ",end="")
+        print("y"+str(i),end=",")
+        if i%2==0:
+            print("y"+str(i-1),end=",")
+        else:
+            print("y"+str(i+1),end=",")
+        for j in range(1,n-1):
+            for fj in range(1,(2**(j+1)+1)):
+                if i%(2**(j+1))==fj%(2**(j+1)):
+                    if fj<=2**j:
+                        if j==(n-2):
+                            print("y"+str(i+(2**j)))
+                        else:
+                            print("y"+str(i+(2**j)),end=",")
+                    elif fj>2**j:
+                        if j==(n-2):
+                            print("y"+str(i-(2**j)))
+                        else:
+                            print("y"+str(i-(2**j)),end=",")
+def longcycle(basearr,n,signarr):
+    print("\nLong Cycle\n")
+    for i in range(1,(2**(n-1))+1):
+        for j in range(1,(2**(int((n/2))-1))+1):
+            if i%(2**int((n/2)))==j%(2**int((n/2))):
+                cycarr=[]
+                x="x"
+                y="y"
+                q=(i-j)*(2**(-n/2))
+                s=int(q+1)
+                print(x+str(i),end=" ")
+                cycarr.append(x+str(i))
+                x,y=y,x
+                for c in range(0,len(basearr)):
+                    base=i
+                    for alpha in range(0,c+1):
+                        base=base+(basearr[alpha]*(signarr[s-1][alpha]))
+                    print(x+str(base),end=" ")
+                    cycarr.append(x+str(base))
+                    x,y=y,x
+                print("")
+                cycles.append(cycarr)
+def signtgenfsc(n):
+    global signarrfsc
+    signarrfsc=[[1 for er in range(0,n)] for ec in range(0,(2**(int((n/2)-1))))]
+    #print("Sign Table")
+    nfs=int((n/2)-2)
+    signfillarrfsc = [[0 for er in range(0,nfs)] for ec in range(0,(2**nfs))]
+    for i in range(1,nfs+1):
+        signfillarrfsc=binaryarray(nfs,signfillarrfsc,nfs-i,(2**i)/2)
+    fcps=int((2**(int((n/2)-1)))/2)
+    for i in range (0,2**nfs):
+        for j in range(0,nfs):
+            if signfillarrfsc[i][j]==0:
+                signarrfsc[i][j+1]=1
+                signarrfsc[i][j+1+(int((n/2)))]=-1
+                signarrfsc[i+fcps][j+1]=1
+                signarrfsc[i+fcps][j+1+(int((n/2)))]=-1
+            else:
+                signarrfsc[i][j+1]=-1
+                signarrfsc[i+fcps][j+1]=-1
+    for i in range(0,2**int((n/2)-1)):
+        signarrfsc[i][n-1]=-1
+        signarrfsc[i][int((n/2))]=-1
+    #for i in range (0,(2**int((n/2)-1))):
+        #print(signarrfsc[i])
+def basegenfsc(n):
+    global basearrfsc
+    basearrfsc=[]
+    i=2
+    while (int(n/2)-i)!=0:
+        basearrfsc.append(2**(int(n/2)-i))
+        i+=1
+    basearrfsc.append(2**(int(n/2)-i))
+    basearrfsc.append(0)
+    basearrfsc.extend(basearrfsc)
+    #print(basearrfsc)
+def shortcycle(basearrfsc,n,signarrfsc):
+    print("\nShort Cycle\n")
+    for i in range(1,(2**(n-1))+1):
+        for j in range(1,(2**(int((n/2))-2))+1):
+            if i%(2**int((n/2)-1))==j%(2**int((n/2)-1)):
+                cycarr=[]
+                x="x"
+                y="y"
+                s=j
+                print(x+str(i),end=" ")
+                cycarr.append(x+str(i))
+                x,y=y,x
+                for c in range(0,len(basearrfsc)):
+                    base=i
+                    for beta in range(0,c+1):
+                        base=base+(basearrfsc[beta]*(signarrfsc[s-1][beta]))
+                    print(x+str(base),end=" ")
+                    cycarr.append(x+str(base))
+                    x,y=y,x
+                print("")
+                cycles.append(cycarr)
+def path(n):
+    flag=0
+    completed=[]
+    for i in cycles:
+        for j in range(0,n):
+            scycles=[]
+            adjs=[]
+            for k in cycles:
+                for L in range(0,n):
+                    if k[L] not in completed and k[L]==i[j] and k!=i:
+                        flag=1
+                        num=k[L]
+                        if i not in scycles:
+                            scycles.append(i)
+                        if k not in scycles:
+                            scycles.append(k)
+                        if L==0:
+                            adjs.append(k[1])
+                            adjs.append(k[n-1])
+                        else:
+                            adjs.append(k[j+1])
+                            adjs.append(k[j-1])
+            if flag==1:
+                if j==0:
+                    adjs.append(i[1])
+                    adjs.append(i[n-1])
+                else:
+                    adjs.append(i[L+1])
+                    adjs.append(i[L-1])
+                print(num,"in common\n")
+                completed.append(num)
+                for cs in scycles:
+                    print(cs)
+                print("\nAdjacents are",adjs,"\n")
+                flag=0
+n=int(input("Enter the Number n(should be multiples of 4):"))
+arr = [[0 for er in range(0,n)] for ec in range(0,(2**n))]
+oarr=[]
+earr=[]
+global cycles
+cycles=[]
+global cycarr
+cycarr=[]
+print("Generating...Please Wait...")
+for i in range(1,n+1):
+    print((i/n)*100,"%")
+    arr=binaryarray(n,arr,n-i,((2**i)/2))
+#printarr(arr,n)
+oddeven(arr,n)
+signtgen(n)
+basegen(n)
+adj(n)
+longcycle(basearr,n,signarr)
+signtgenfsc(n)
+basegenfsc(n)
+shortcycle(basearrfsc,n,signarrfsc)
+print("Total Number of cycles:",2**(n-1))
+print("\nPaths\n")
+path(n)
