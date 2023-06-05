@@ -84,28 +84,32 @@ def adj(n):
                             print("y"+str(i-(2**j)))
                         else:
                             print("y"+str(i-(2**j)),end=",")
-def longcycle(basearr,n,signarr):
-    print("\nLong Cycle\n")
-    for i in range(1,(2**(n-1))+1):
-        for j in range(1,(2**(int((n/2))-1))+1):
-            if i%(2**int((n/2)))==j%(2**int((n/2))):
-                cycarr=[]
-                x="x"
-                y="y"
-                q=(i-j)*(2**(-n/2))
-                s=int(q+1)
-                print(x+str(i),end=" ")
-                cycarr.append(x+str(i))
-                x,y=y,x
-                for c in range(0,len(basearr)):
-                    base=i
-                    for alpha in range(0,c+1):
-                        base=base+(basearr[alpha]*(signarr[s-1][alpha]))
-                    print(x+str(base),end=" ")
-                    cycarr.append(x+str(base))
-                    x,y=y,x
+def longcycle(basearr, n, signarr):
+    print("\nType-I Cycles\n")
+    cycle_counter = 1  # Counter for cycle number
+    for i in range(1, (2**(n - 1)) + 1):
+        for j in range(1, (2**(int((n / 2)) - 1)) + 1):
+            if i % (2**int((n / 2))) == j % (2**int((n / 2))):
+                cycarr = []
+                x = "x"
+                y = "y"
+                q = (i - j) * (2**(-n / 2))
+                s = int(q + 1)
+                print("t1c{}=".format(cycle_counter, len(cycarr) + 1), end="")  # Print cycle number
+                cycarr.append(x + str(i))
+                print(x + str(i), end=" ")
+                x, y = y, x
+                for c in range(0, len(basearr)):
+                    base = i
+                    for alpha in range(0, c + 1):
+                        base = base + (basearr[alpha] * (signarr[s - 1][alpha]))
+                    print(x + str(base), end=" ")
+                    cycarr.append(x + str(base))
+                    x, y = y, x
                 print("")
                 cycles.append(cycarr)
+                cycle_counter += 1  # Increment cycle counter
+
 def signtgenfsc(n):
     global signarrfsc
     signarrfsc=[[1 for er in range(0,n)] for ec in range(0,(2**(int((n/2)-1))))]
@@ -141,62 +145,70 @@ def basegenfsc(n):
     basearrfsc.append(0)
     basearrfsc.extend(basearrfsc)
     #print(basearrfsc)
-def shortcycle(basearrfsc,n,signarrfsc):
-    print("\nShort Cycle\n")
-    for i in range(1,(2**(n-1))+1):
-        for j in range(1,(2**(int((n/2))-2))+1):
-            if i%(2**int((n/2)-1))==j%(2**int((n/2)-1)):
-                cycarr=[]
-                x="x"
-                y="y"
-                s=j
-                print(x+str(i),end=" ")
-                cycarr.append(x+str(i))
-                x,y=y,x
-                for c in range(0,len(basearrfsc)):
-                    base=i
-                    for beta in range(0,c+1):
-                        base=base+(basearrfsc[beta]*(signarrfsc[s-1][beta]))
-                    print(x+str(base),end=" ")
-                    cycarr.append(x+str(base))
-                    x,y=y,x
+def shortcycle(basearrfsc, n, signarrfsc):
+    print("\nType-II Cycles\n")
+    cycle_counter = 1  # Counter for cycle number
+    for i in range(1, (2**(n - 1)) + 1):
+        for j in range(1, (2**(int((n / 2)) - 2)) + 1):
+            if i % (2**int((n / 2) - 1)) == j % (2**int((n / 2) - 1)):
+                cycarr = []
+                x = "x"
+                y = "y"
+                s = j
+                print("t2c{}=".format(cycle_counter, len(cycarr) + 1), end="")  # Print cycle number
+                cycarr.append(x + str(i))
+                print(x + str(i), end=" ")
+                x, y = y, x
+                for c in range(0, len(basearrfsc)):
+                    base = i
+                    for beta in range(0, c + 1):
+                        base = base + (basearrfsc[beta] * (signarrfsc[s - 1][beta]))
+                    print(x + str(base), end=" ")
+                    cycarr.append(x + str(base))
+                    x, y = y, x
                 print("")
                 cycles.append(cycarr)
+                cycle_counter += 1  # Increment cycle counter
+
 def path(n):
-    flag=0
-    completed=[]
+    flag = 0
+    completed = []
+    cycle_counter = 1
     for i in cycles:
-        for j in range(0,n):
-            scycles=[]
-            adjs=[]
+        for j in range(0, n):
+            scycles = []
+            adjs = []
             for k in cycles:
-                for L in range(0,n):
-                    if k[L] not in completed and k[L]==i[j] and k!=i:
-                        flag=1
-                        num=k[L]
+                for L in range(0, n):
+                    if k[L] not in completed and k[L] == i[j] and k != i:
+                        flag = 1
+                        num = k[L]
                         if i not in scycles:
                             scycles.append(i)
                         if k not in scycles:
                             scycles.append(k)
-                        if L==0:
+                        if L == 0:
                             adjs.append(k[1])
-                            adjs.append(k[n-1])
+                            adjs.append(k[n - 1])
                         else:
-                            adjs.append(k[j+1])
-                            adjs.append(k[j-1])
-            if flag==1:
-                if j==0:
+                            adjs.append(k[j + 1])
+                            adjs.append(k[j - 1])
+            if flag == 1:
+                if j == 0:
                     adjs.append(i[1])
-                    adjs.append(i[n-1])
+                    adjs.append(i[n - 1])
                 else:
-                    adjs.append(i[L+1])
-                    adjs.append(i[L-1])
-                print(num,"in common\n")
+                    adjs.append(i[L + 1])
+                    adjs.append(i[L - 1])
+                print("{} is common in the cycles:".format(num))
                 completed.append(num)
-                for cs in scycles:
-                    print(cs)
-                print("\nAdjacents are",adjs,"\n")
-                flag=0
+                for idx, cs in enumerate(scycles):
+                    #print("t{}c{}".format(cycle_counter, idx + 1))
+                    print(*cs)  # Print the cycle as a list
+                #print("\nAdjacents are", adjs, end="\n\n")
+                flag = 0
+        cycle_counter += 1
+
 n=int(input("Enter the Number n(should be multiples of 4):"))
 arr = [[0 for er in range(0,n)] for ec in range(0,(2**n))]
 oarr=[]
