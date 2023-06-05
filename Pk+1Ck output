@@ -2,170 +2,1822 @@ Python 3.1.4 (default, Jun 12 2011, 15:05:44) [MSC v.1500 32 bit (Intel)] on win
 Type "copyright", "credits" or "license()" for more information.
 >>> ================================ RESTART ================================
 >>> 
-Enter the Number n(should be multiples of 4):4
+Enter the Number n(should be multiples of 4):8
 Generating...Please Wait...
+12.5 %
 25.0 %
+37.5 %
 50.0 %
+62.5 %
 75.0 %
+87.5 %
 100.0 %
 
 Vertices
 
-x1=0000
-y1=0001
-x2=0011
-y2=0010
-x3=0101
-y3=0100
-x4=0110
-y4=0111
-x5=1001
-y5=1000
-x6=1010
-y6=1011
-x7=1100
-y7=1101
-x8=1111
-y8=1110
+x1=00000000
+y1=00000001
+x2=00000011
+y2=00000010
+x3=00000101
+y3=00000100
+x4=00000110
+y4=00000111
+x5=00001001
+y5=00001000
+x6=00001010
+y6=00001011
+x7=00001100
+y7=00001101
+x8=00001111
+y8=00001110
+x9=00010001
+y9=00010000
+x10=00010010
+y10=00010011
+x11=00010100
+y11=00010101
+x12=00010111
+y12=00010110
+x13=00011000
+y13=00011001
+x14=00011011
+y14=00011010
+x15=00011101
+y15=00011100
+x16=00011110
+y16=00011111
+x17=00100001
+y17=00100000
+x18=00100010
+y18=00100011
+x19=00100100
+y19=00100101
+x20=00100111
+y20=00100110
+x21=00101000
+y21=00101001
+x22=00101011
+y22=00101010
+x23=00101101
+y23=00101100
+x24=00101110
+y24=00101111
+x25=00110000
+y25=00110001
+x26=00110011
+y26=00110010
+x27=00110101
+y27=00110100
+x28=00110110
+y28=00110111
+x29=00111001
+y29=00111000
+x30=00111010
+y30=00111011
+x31=00111100
+y31=00111101
+x32=00111111
+y32=00111110
+x33=01000001
+y33=01000000
+x34=01000010
+y34=01000011
+x35=01000100
+y35=01000101
+x36=01000111
+y36=01000110
+x37=01001000
+y37=01001001
+x38=01001011
+y38=01001010
+x39=01001101
+y39=01001100
+x40=01001110
+y40=01001111
+x41=01010000
+y41=01010001
+x42=01010011
+y42=01010010
+x43=01010101
+y43=01010100
+x44=01010110
+y44=01010111
+x45=01011001
+y45=01011000
+x46=01011010
+y46=01011011
+x47=01011100
+y47=01011101
+x48=01011111
+y48=01011110
+x49=01100000
+y49=01100001
+x50=01100011
+y50=01100010
+x51=01100101
+y51=01100100
+x52=01100110
+y52=01100111
+x53=01101001
+y53=01101000
+x54=01101010
+y54=01101011
+x55=01101100
+y55=01101101
+x56=01101111
+y56=01101110
+x57=01110001
+y57=01110000
+x58=01110010
+y58=01110011
+x59=01110100
+y59=01110101
+x60=01110111
+y60=01110110
+x61=01111000
+y61=01111001
+x62=01111011
+y62=01111010
+x63=01111101
+y63=01111100
+x64=01111110
+y64=01111111
+x65=10000001
+y65=10000000
+x66=10000010
+y66=10000011
+x67=10000100
+y67=10000101
+x68=10000111
+y68=10000110
+x69=10001000
+y69=10001001
+x70=10001011
+y70=10001010
+x71=10001101
+y71=10001100
+x72=10001110
+y72=10001111
+x73=10010000
+y73=10010001
+x74=10010011
+y74=10010010
+x75=10010101
+y75=10010100
+x76=10010110
+y76=10010111
+x77=10011001
+y77=10011000
+x78=10011010
+y78=10011011
+x79=10011100
+y79=10011101
+x80=10011111
+y80=10011110
+x81=10100000
+y81=10100001
+x82=10100011
+y82=10100010
+x83=10100101
+y83=10100100
+x84=10100110
+y84=10100111
+x85=10101001
+y85=10101000
+x86=10101010
+y86=10101011
+x87=10101100
+y87=10101101
+x88=10101111
+y88=10101110
+x89=10110001
+y89=10110000
+x90=10110010
+y90=10110011
+x91=10110100
+y91=10110101
+x92=10110111
+y92=10110110
+x93=10111000
+y93=10111001
+x94=10111011
+y94=10111010
+x95=10111101
+y95=10111100
+x96=10111110
+y96=10111111
+x97=11000000
+y97=11000001
+x98=11000011
+y98=11000010
+x99=11000101
+y99=11000100
+x100=11000110
+y100=11000111
+x101=11001001
+y101=11001000
+x102=11001010
+y102=11001011
+x103=11001100
+y103=11001101
+x104=11001111
+y104=11001110
+x105=11010001
+y105=11010000
+x106=11010010
+y106=11010011
+x107=11010100
+y107=11010101
+x108=11010111
+y108=11010110
+x109=11011000
+y109=11011001
+x110=11011011
+y110=11011010
+x111=11011101
+y111=11011100
+x112=11011110
+y112=11011111
+x113=11100001
+y113=11100000
+x114=11100010
+y114=11100011
+x115=11100100
+y115=11100101
+x116=11100111
+y116=11100110
+x117=11101000
+y117=11101001
+x118=11101011
+y118=11101010
+x119=11101101
+y119=11101100
+x120=11101110
+y120=11101111
+x121=11110000
+y121=11110001
+x122=11110011
+y122=11110010
+x123=11110101
+y123=11110100
+x124=11110110
+y124=11110111
+x125=11111001
+y125=11111000
+x126=11111010
+y126=11111011
+x127=11111100
+y127=11111101
+x128=11111111
+y128=11111110
 
 Adjacency
 
-x1 is adjacent to y1,y2,y3,y5
-x2 is adjacent to y2,y1,y4,y6
-x3 is adjacent to y3,y4,y1,y7
-x4 is adjacent to y4,y3,y2,y8
-x5 is adjacent to y5,y6,y7,y1
-x6 is adjacent to y6,y5,y8,y2
-x7 is adjacent to y7,y8,y5,y3
-x8 is adjacent to y8,y7,y6,y4
+x1 is adjacent to y1,y2,y3,y5,y9,y17,y33,y65
+x2 is adjacent to y2,y1,y4,y6,y10,y18,y34,y66
+x3 is adjacent to y3,y4,y1,y7,y11,y19,y35,y67
+x4 is adjacent to y4,y3,y2,y8,y12,y20,y36,y68
+x5 is adjacent to y5,y6,y7,y1,y13,y21,y37,y69
+x6 is adjacent to y6,y5,y8,y2,y14,y22,y38,y70
+x7 is adjacent to y7,y8,y5,y3,y15,y23,y39,y71
+x8 is adjacent to y8,y7,y6,y4,y16,y24,y40,y72
+x9 is adjacent to y9,y10,y11,y13,y1,y25,y41,y73
+x10 is adjacent to y10,y9,y12,y14,y2,y26,y42,y74
+x11 is adjacent to y11,y12,y9,y15,y3,y27,y43,y75
+x12 is adjacent to y12,y11,y10,y16,y4,y28,y44,y76
+x13 is adjacent to y13,y14,y15,y9,y5,y29,y45,y77
+x14 is adjacent to y14,y13,y16,y10,y6,y30,y46,y78
+x15 is adjacent to y15,y16,y13,y11,y7,y31,y47,y79
+x16 is adjacent to y16,y15,y14,y12,y8,y32,y48,y80
+x17 is adjacent to y17,y18,y19,y21,y25,y1,y49,y81
+x18 is adjacent to y18,y17,y20,y22,y26,y2,y50,y82
+x19 is adjacent to y19,y20,y17,y23,y27,y3,y51,y83
+x20 is adjacent to y20,y19,y18,y24,y28,y4,y52,y84
+x21 is adjacent to y21,y22,y23,y17,y29,y5,y53,y85
+x22 is adjacent to y22,y21,y24,y18,y30,y6,y54,y86
+x23 is adjacent to y23,y24,y21,y19,y31,y7,y55,y87
+x24 is adjacent to y24,y23,y22,y20,y32,y8,y56,y88
+x25 is adjacent to y25,y26,y27,y29,y17,y9,y57,y89
+x26 is adjacent to y26,y25,y28,y30,y18,y10,y58,y90
+x27 is adjacent to y27,y28,y25,y31,y19,y11,y59,y91
+x28 is adjacent to y28,y27,y26,y32,y20,y12,y60,y92
+x29 is adjacent to y29,y30,y31,y25,y21,y13,y61,y93
+x30 is adjacent to y30,y29,y32,y26,y22,y14,y62,y94
+x31 is adjacent to y31,y32,y29,y27,y23,y15,y63,y95
+x32 is adjacent to y32,y31,y30,y28,y24,y16,y64,y96
+x33 is adjacent to y33,y34,y35,y37,y41,y49,y1,y97
+x34 is adjacent to y34,y33,y36,y38,y42,y50,y2,y98
+x35 is adjacent to y35,y36,y33,y39,y43,y51,y3,y99
+x36 is adjacent to y36,y35,y34,y40,y44,y52,y4,y100
+x37 is adjacent to y37,y38,y39,y33,y45,y53,y5,y101
+x38 is adjacent to y38,y37,y40,y34,y46,y54,y6,y102
+x39 is adjacent to y39,y40,y37,y35,y47,y55,y7,y103
+x40 is adjacent to y40,y39,y38,y36,y48,y56,y8,y104
+x41 is adjacent to y41,y42,y43,y45,y33,y57,y9,y105
+x42 is adjacent to y42,y41,y44,y46,y34,y58,y10,y106
+x43 is adjacent to y43,y44,y41,y47,y35,y59,y11,y107
+x44 is adjacent to y44,y43,y42,y48,y36,y60,y12,y108
+x45 is adjacent to y45,y46,y47,y41,y37,y61,y13,y109
+x46 is adjacent to y46,y45,y48,y42,y38,y62,y14,y110
+x47 is adjacent to y47,y48,y45,y43,y39,y63,y15,y111
+x48 is adjacent to y48,y47,y46,y44,y40,y64,y16,y112
+x49 is adjacent to y49,y50,y51,y53,y57,y33,y17,y113
+x50 is adjacent to y50,y49,y52,y54,y58,y34,y18,y114
+x51 is adjacent to y51,y52,y49,y55,y59,y35,y19,y115
+x52 is adjacent to y52,y51,y50,y56,y60,y36,y20,y116
+x53 is adjacent to y53,y54,y55,y49,y61,y37,y21,y117
+x54 is adjacent to y54,y53,y56,y50,y62,y38,y22,y118
+x55 is adjacent to y55,y56,y53,y51,y63,y39,y23,y119
+x56 is adjacent to y56,y55,y54,y52,y64,y40,y24,y120
+x57 is adjacent to y57,y58,y59,y61,y49,y41,y25,y121
+x58 is adjacent to y58,y57,y60,y62,y50,y42,y26,y122
+x59 is adjacent to y59,y60,y57,y63,y51,y43,y27,y123
+x60 is adjacent to y60,y59,y58,y64,y52,y44,y28,y124
+x61 is adjacent to y61,y62,y63,y57,y53,y45,y29,y125
+x62 is adjacent to y62,y61,y64,y58,y54,y46,y30,y126
+x63 is adjacent to y63,y64,y61,y59,y55,y47,y31,y127
+x64 is adjacent to y64,y63,y62,y60,y56,y48,y32,y128
+x65 is adjacent to y65,y66,y67,y69,y73,y81,y97,y1
+x66 is adjacent to y66,y65,y68,y70,y74,y82,y98,y2
+x67 is adjacent to y67,y68,y65,y71,y75,y83,y99,y3
+x68 is adjacent to y68,y67,y66,y72,y76,y84,y100,y4
+x69 is adjacent to y69,y70,y71,y65,y77,y85,y101,y5
+x70 is adjacent to y70,y69,y72,y66,y78,y86,y102,y6
+x71 is adjacent to y71,y72,y69,y67,y79,y87,y103,y7
+x72 is adjacent to y72,y71,y70,y68,y80,y88,y104,y8
+x73 is adjacent to y73,y74,y75,y77,y65,y89,y105,y9
+x74 is adjacent to y74,y73,y76,y78,y66,y90,y106,y10
+x75 is adjacent to y75,y76,y73,y79,y67,y91,y107,y11
+x76 is adjacent to y76,y75,y74,y80,y68,y92,y108,y12
+x77 is adjacent to y77,y78,y79,y73,y69,y93,y109,y13
+x78 is adjacent to y78,y77,y80,y74,y70,y94,y110,y14
+x79 is adjacent to y79,y80,y77,y75,y71,y95,y111,y15
+x80 is adjacent to y80,y79,y78,y76,y72,y96,y112,y16
+x81 is adjacent to y81,y82,y83,y85,y89,y65,y113,y17
+x82 is adjacent to y82,y81,y84,y86,y90,y66,y114,y18
+x83 is adjacent to y83,y84,y81,y87,y91,y67,y115,y19
+x84 is adjacent to y84,y83,y82,y88,y92,y68,y116,y20
+x85 is adjacent to y85,y86,y87,y81,y93,y69,y117,y21
+x86 is adjacent to y86,y85,y88,y82,y94,y70,y118,y22
+x87 is adjacent to y87,y88,y85,y83,y95,y71,y119,y23
+x88 is adjacent to y88,y87,y86,y84,y96,y72,y120,y24
+x89 is adjacent to y89,y90,y91,y93,y81,y73,y121,y25
+x90 is adjacent to y90,y89,y92,y94,y82,y74,y122,y26
+x91 is adjacent to y91,y92,y89,y95,y83,y75,y123,y27
+x92 is adjacent to y92,y91,y90,y96,y84,y76,y124,y28
+x93 is adjacent to y93,y94,y95,y89,y85,y77,y125,y29
+x94 is adjacent to y94,y93,y96,y90,y86,y78,y126,y30
+x95 is adjacent to y95,y96,y93,y91,y87,y79,y127,y31
+x96 is adjacent to y96,y95,y94,y92,y88,y80,y128,y32
+x97 is adjacent to y97,y98,y99,y101,y105,y113,y65,y33
+x98 is adjacent to y98,y97,y100,y102,y106,y114,y66,y34
+x99 is adjacent to y99,y100,y97,y103,y107,y115,y67,y35
+x100 is adjacent to y100,y99,y98,y104,y108,y116,y68,y36
+x101 is adjacent to y101,y102,y103,y97,y109,y117,y69,y37
+x102 is adjacent to y102,y101,y104,y98,y110,y118,y70,y38
+x103 is adjacent to y103,y104,y101,y99,y111,y119,y71,y39
+x104 is adjacent to y104,y103,y102,y100,y112,y120,y72,y40
+x105 is adjacent to y105,y106,y107,y109,y97,y121,y73,y41
+x106 is adjacent to y106,y105,y108,y110,y98,y122,y74,y42
+x107 is adjacent to y107,y108,y105,y111,y99,y123,y75,y43
+x108 is adjacent to y108,y107,y106,y112,y100,y124,y76,y44
+x109 is adjacent to y109,y110,y111,y105,y101,y125,y77,y45
+x110 is adjacent to y110,y109,y112,y106,y102,y126,y78,y46
+x111 is adjacent to y111,y112,y109,y107,y103,y127,y79,y47
+x112 is adjacent to y112,y111,y110,y108,y104,y128,y80,y48
+x113 is adjacent to y113,y114,y115,y117,y121,y97,y81,y49
+x114 is adjacent to y114,y113,y116,y118,y122,y98,y82,y50
+x115 is adjacent to y115,y116,y113,y119,y123,y99,y83,y51
+x116 is adjacent to y116,y115,y114,y120,y124,y100,y84,y52
+x117 is adjacent to y117,y118,y119,y113,y125,y101,y85,y53
+x118 is adjacent to y118,y117,y120,y114,y126,y102,y86,y54
+x119 is adjacent to y119,y120,y117,y115,y127,y103,y87,y55
+x120 is adjacent to y120,y119,y118,y116,y128,y104,y88,y56
+x121 is adjacent to y121,y122,y123,y125,y113,y105,y89,y57
+x122 is adjacent to y122,y121,y124,y126,y114,y106,y90,y58
+x123 is adjacent to y123,y124,y121,y127,y115,y107,y91,y59
+x124 is adjacent to y124,y123,y122,y128,y116,y108,y92,y60
+x125 is adjacent to y125,y126,y127,y121,y117,y109,y93,y61
+x126 is adjacent to y126,y125,y128,y122,y118,y110,y94,y62
+x127 is adjacent to y127,y128,y125,y123,y119,y111,y95,y63
+x128 is adjacent to y128,y127,y126,y124,y120,y112,y96,y64
 
-Long Cycle
+Type-I Cycles
 
-x1 y5 x7 y3 x1 
-x2 y6 x8 y4 x2 
-x5 y1 x3 y7 x5 
-x6 y2 x4 y8 x6 
+t1c1=x1 y65 x97 y113 x121 y57 x25 y9 x1 
+t1c2=x2 y66 x98 y114 x122 y58 x26 y10 x2 
+t1c3=x3 y67 x99 y115 x123 y59 x27 y11 x3 
+t1c4=x4 y68 x100 y116 x124 y60 x28 y12 x4 
+t1c5=x5 y69 x101 y117 x125 y61 x29 y13 x5 
+t1c6=x6 y70 x102 y118 x126 y62 x30 y14 x6 
+t1c7=x7 y71 x103 y119 x127 y63 x31 y15 x7 
+t1c8=x8 y72 x104 y120 x128 y64 x32 y16 x8 
+t1c9=x17 y81 x113 y97 x105 y41 x9 y25 x17 
+t1c10=x18 y82 x114 y98 x106 y42 x10 y26 x18 
+t1c11=x19 y83 x115 y99 x107 y43 x11 y27 x19 
+t1c12=x20 y84 x116 y100 x108 y44 x12 y28 x20 
+t1c13=x21 y85 x117 y101 x109 y45 x13 y29 x21 
+t1c14=x22 y86 x118 y102 x110 y46 x14 y30 x22 
+t1c15=x23 y87 x119 y103 x111 y47 x15 y31 x23 
+t1c16=x24 y88 x120 y104 x112 y48 x16 y32 x24 
+t1c17=x33 y97 x65 y81 x89 y25 x57 y41 x33 
+t1c18=x34 y98 x66 y82 x90 y26 x58 y42 x34 
+t1c19=x35 y99 x67 y83 x91 y27 x59 y43 x35 
+t1c20=x36 y100 x68 y84 x92 y28 x60 y44 x36 
+t1c21=x37 y101 x69 y85 x93 y29 x61 y45 x37 
+t1c22=x38 y102 x70 y86 x94 y30 x62 y46 x38 
+t1c23=x39 y103 x71 y87 x95 y31 x63 y47 x39 
+t1c24=x40 y104 x72 y88 x96 y32 x64 y48 x40 
+t1c25=x49 y113 x81 y65 x73 y9 x41 y57 x49 
+t1c26=x50 y114 x82 y66 x74 y10 x42 y58 x50 
+t1c27=x51 y115 x83 y67 x75 y11 x43 y59 x51 
+t1c28=x52 y116 x84 y68 x76 y12 x44 y60 x52 
+t1c29=x53 y117 x85 y69 x77 y13 x45 y61 x53 
+t1c30=x54 y118 x86 y70 x78 y14 x46 y62 x54 
+t1c31=x55 y119 x87 y71 x79 y15 x47 y63 x55 
+t1c32=x56 y120 x88 y72 x80 y16 x48 y64 x56 
+t1c33=x65 y1 x33 y49 x57 y121 x89 y73 x65 
+t1c34=x66 y2 x34 y50 x58 y122 x90 y74 x66 
+t1c35=x67 y3 x35 y51 x59 y123 x91 y75 x67 
+t1c36=x68 y4 x36 y52 x60 y124 x92 y76 x68 
+t1c37=x69 y5 x37 y53 x61 y125 x93 y77 x69 
+t1c38=x70 y6 x38 y54 x62 y126 x94 y78 x70 
+t1c39=x71 y7 x39 y55 x63 y127 x95 y79 x71 
+t1c40=x72 y8 x40 y56 x64 y128 x96 y80 x72 
+t1c41=x81 y17 x49 y33 x41 y105 x73 y89 x81 
+t1c42=x82 y18 x50 y34 x42 y106 x74 y90 x82 
+t1c43=x83 y19 x51 y35 x43 y107 x75 y91 x83 
+t1c44=x84 y20 x52 y36 x44 y108 x76 y92 x84 
+t1c45=x85 y21 x53 y37 x45 y109 x77 y93 x85 
+t1c46=x86 y22 x54 y38 x46 y110 x78 y94 x86 
+t1c47=x87 y23 x55 y39 x47 y111 x79 y95 x87 
+t1c48=x88 y24 x56 y40 x48 y112 x80 y96 x88 
+t1c49=x97 y33 x1 y17 x25 y89 x121 y105 x97 
+t1c50=x98 y34 x2 y18 x26 y90 x122 y106 x98 
+t1c51=x99 y35 x3 y19 x27 y91 x123 y107 x99 
+t1c52=x100 y36 x4 y20 x28 y92 x124 y108 x100 
+t1c53=x101 y37 x5 y21 x29 y93 x125 y109 x101 
+t1c54=x102 y38 x6 y22 x30 y94 x126 y110 x102 
+t1c55=x103 y39 x7 y23 x31 y95 x127 y111 x103 
+t1c56=x104 y40 x8 y24 x32 y96 x128 y112 x104 
+t1c57=x113 y49 x17 y1 x9 y73 x105 y121 x113 
+t1c58=x114 y50 x18 y2 x10 y74 x106 y122 x114 
+t1c59=x115 y51 x19 y3 x11 y75 x107 y123 x115 
+t1c60=x116 y52 x20 y4 x12 y76 x108 y124 x116 
+t1c61=x117 y53 x21 y5 x13 y77 x109 y125 x117 
+t1c62=x118 y54 x22 y6 x14 y78 x110 y126 x118 
+t1c63=x119 y55 x23 y7 x15 y79 x111 y127 x119 
+t1c64=x120 y56 x24 y8 x16 y80 x112 y128 x120 
 
-Short Cycle
+Type-II Cycles
 
-x1 y2 x2 y1 x1 
-x3 y4 x4 y3 x3 
-x5 y6 x6 y5 x5 
-x7 y8 x8 y7 x7 
-Total Number of cycles: 8
+t2c1=x1 y5 x7 y8 x8 y4 x2 y1 x1 
+t2c2=x2 y6 x8 y7 x7 y3 x1 y2 x2 
+t2c3=x3 y7 x5 y6 x6 y2 x4 y3 x3 
+t2c4=x4 y8 x6 y5 x5 y1 x3 y4 x4 
+t2c5=x9 y13 x15 y16 x16 y12 x10 y9 x9 
+t2c6=x10 y14 x16 y15 x15 y11 x9 y10 x10 
+t2c7=x11 y15 x13 y14 x14 y10 x12 y11 x11 
+t2c8=x12 y16 x14 y13 x13 y9 x11 y12 x12 
+t2c9=x17 y21 x23 y24 x24 y20 x18 y17 x17 
+t2c10=x18 y22 x24 y23 x23 y19 x17 y18 x18 
+t2c11=x19 y23 x21 y22 x22 y18 x20 y19 x19 
+t2c12=x20 y24 x22 y21 x21 y17 x19 y20 x20 
+t2c13=x25 y29 x31 y32 x32 y28 x26 y25 x25 
+t2c14=x26 y30 x32 y31 x31 y27 x25 y26 x26 
+t2c15=x27 y31 x29 y30 x30 y26 x28 y27 x27 
+t2c16=x28 y32 x30 y29 x29 y25 x27 y28 x28 
+t2c17=x33 y37 x39 y40 x40 y36 x34 y33 x33 
+t2c18=x34 y38 x40 y39 x39 y35 x33 y34 x34 
+t2c19=x35 y39 x37 y38 x38 y34 x36 y35 x35 
+t2c20=x36 y40 x38 y37 x37 y33 x35 y36 x36 
+t2c21=x41 y45 x47 y48 x48 y44 x42 y41 x41 
+t2c22=x42 y46 x48 y47 x47 y43 x41 y42 x42 
+t2c23=x43 y47 x45 y46 x46 y42 x44 y43 x43 
+t2c24=x44 y48 x46 y45 x45 y41 x43 y44 x44 
+t2c25=x49 y53 x55 y56 x56 y52 x50 y49 x49 
+t2c26=x50 y54 x56 y55 x55 y51 x49 y50 x50 
+t2c27=x51 y55 x53 y54 x54 y50 x52 y51 x51 
+t2c28=x52 y56 x54 y53 x53 y49 x51 y52 x52 
+t2c29=x57 y61 x63 y64 x64 y60 x58 y57 x57 
+t2c30=x58 y62 x64 y63 x63 y59 x57 y58 x58 
+t2c31=x59 y63 x61 y62 x62 y58 x60 y59 x59 
+t2c32=x60 y64 x62 y61 x61 y57 x59 y60 x60 
+t2c33=x65 y69 x71 y72 x72 y68 x66 y65 x65 
+t2c34=x66 y70 x72 y71 x71 y67 x65 y66 x66 
+t2c35=x67 y71 x69 y70 x70 y66 x68 y67 x67 
+t2c36=x68 y72 x70 y69 x69 y65 x67 y68 x68 
+t2c37=x73 y77 x79 y80 x80 y76 x74 y73 x73 
+t2c38=x74 y78 x80 y79 x79 y75 x73 y74 x74 
+t2c39=x75 y79 x77 y78 x78 y74 x76 y75 x75 
+t2c40=x76 y80 x78 y77 x77 y73 x75 y76 x76 
+t2c41=x81 y85 x87 y88 x88 y84 x82 y81 x81 
+t2c42=x82 y86 x88 y87 x87 y83 x81 y82 x82 
+t2c43=x83 y87 x85 y86 x86 y82 x84 y83 x83 
+t2c44=x84 y88 x86 y85 x85 y81 x83 y84 x84 
+t2c45=x89 y93 x95 y96 x96 y92 x90 y89 x89 
+t2c46=x90 y94 x96 y95 x95 y91 x89 y90 x90 
+t2c47=x91 y95 x93 y94 x94 y90 x92 y91 x91 
+t2c48=x92 y96 x94 y93 x93 y89 x91 y92 x92 
+t2c49=x97 y101 x103 y104 x104 y100 x98 y97 x97 
+t2c50=x98 y102 x104 y103 x103 y99 x97 y98 x98 
+t2c51=x99 y103 x101 y102 x102 y98 x100 y99 x99 
+t2c52=x100 y104 x102 y101 x101 y97 x99 y100 x100 
+t2c53=x105 y109 x111 y112 x112 y108 x106 y105 x105 
+t2c54=x106 y110 x112 y111 x111 y107 x105 y106 x106 
+t2c55=x107 y111 x109 y110 x110 y106 x108 y107 x107 
+t2c56=x108 y112 x110 y109 x109 y105 x107 y108 x108 
+t2c57=x113 y117 x119 y120 x120 y116 x114 y113 x113 
+t2c58=x114 y118 x120 y119 x119 y115 x113 y114 x114 
+t2c59=x115 y119 x117 y118 x118 y114 x116 y115 x115 
+t2c60=x116 y120 x118 y117 x117 y113 x115 y116 x116 
+t2c61=x121 y125 x127 y128 x128 y124 x122 y121 x121 
+t2c62=x122 y126 x128 y127 x127 y123 x121 y122 x122 
+t2c63=x123 y127 x125 y126 x126 y122 x124 y123 x123 
+t2c64=x124 y128 x126 y125 x125 y121 x123 y124 x124 
+Total Number of cycles: 128
 
 Paths
 
-x1 in common
-
-['x1', 'y5', 'x7', 'y3', 'x1']
-['x1', 'y2', 'x2', 'y1', 'x1']
-
-Adjacents are ['y2', 'y1', 'y5', 'y3'] 
-
-y5 in common
-
-['x1', 'y5', 'x7', 'y3', 'x1']
-['x5', 'y6', 'x6', 'y5', 'x5']
-
-Adjacents are ['x6', 'x5', 'x1', 'x7'] 
-
-x7 in common
-
-['x1', 'y5', 'x7', 'y3', 'x1']
-['x7', 'y8', 'x8', 'y7', 'x7']
-
-Adjacents are ['y8', 'y7', 'x1', 'x7'] 
-
-y3 in common
-
-['x1', 'y5', 'x7', 'y3', 'x1']
-['x3', 'y4', 'x4', 'y3', 'x3']
-
-Adjacents are ['x3', 'x4', 'x1', 'x7'] 
-
-x2 in common
-
-['x2', 'y6', 'x8', 'y4', 'x2']
-['x1', 'y2', 'x2', 'y1', 'x1']
-
-Adjacents are ['y2', 'x1', 'y6', 'y4'] 
-
-y6 in common
-
-['x2', 'y6', 'x8', 'y4', 'x2']
-['x5', 'y6', 'x6', 'y5', 'x5']
-
-Adjacents are ['x6', 'x5', 'x2', 'x8'] 
-
-x8 in common
-
-['x2', 'y6', 'x8', 'y4', 'x2']
-['x7', 'y8', 'x8', 'y7', 'x7']
-
-Adjacents are ['y7', 'y8', 'x2', 'x8'] 
-
-y4 in common
-
-['x2', 'y6', 'x8', 'y4', 'x2']
-['x3', 'y4', 'x4', 'y3', 'x3']
-
-Adjacents are ['x3', 'x4', 'x2', 'x8'] 
-
-x5 in common
-
-['x5', 'y1', 'x3', 'y7', 'x5']
-['x5', 'y6', 'x6', 'y5', 'x5']
-
-Adjacents are ['y6', 'y5', 'y1', 'y7'] 
-
-y1 in common
-
-['x5', 'y1', 'x3', 'y7', 'x5']
-['x1', 'y2', 'x2', 'y1', 'x1']
-
-Adjacents are ['x2', 'x1', 'x5', 'x3'] 
-
-x3 in common
-
-['x5', 'y1', 'x3', 'y7', 'x5']
-['x3', 'y4', 'x4', 'y3', 'x3']
-
-Adjacents are ['y4', 'y3', 'x5', 'x3'] 
-
-y7 in common
-
-['x5', 'y1', 'x3', 'y7', 'x5']
-['x7', 'y8', 'x8', 'y7', 'x7']
-
-Adjacents are ['x7', 'x8', 'x5', 'x3'] 
-
-x6 in common
-
-['x6', 'y2', 'x4', 'y8', 'x6']
-['x5', 'y6', 'x6', 'y5', 'x5']
-
-Adjacents are ['y6', 'x5', 'y2', 'y8'] 
-
-y2 in common
-
-['x6', 'y2', 'x4', 'y8', 'x6']
-['x1', 'y2', 'x2', 'y1', 'x1']
-
-Adjacents are ['x2', 'x1', 'x6', 'x4'] 
-
-x4 in common
-
-['x6', 'y2', 'x4', 'y8', 'x6']
-['x3', 'y4', 'x4', 'y3', 'x3']
-
-Adjacents are ['y3', 'y4', 'x6', 'x4'] 
-
-y8 in common
-
-['x6', 'y2', 'x4', 'y8', 'x6']
-['x7', 'y8', 'x8', 'y7', 'x7']
-
-Adjacents are ['x7', 'x8', 'x6', 'x4'] 
-
+x1 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+y65 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x97 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+y113 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+x121 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+y57 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x25 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+y9 is common in the cycles:
+x1 y65 x97 y113 x121 y57 x25 y9 x1
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+x2 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+y66 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x98 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+y114 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x122 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+y58 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x26 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+y10 is common in the cycles:
+x2 y66 x98 y114 x122 y58 x26 y10 x2
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x3 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y67 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x99 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+y115 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x123 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y59 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x27 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+y11 is common in the cycles:
+x3 y67 x99 y115 x123 y59 x27 y11 x3
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x4 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y68 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x100 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+y116 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+x124 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y60 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x28 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+y12 is common in the cycles:
+x4 y68 x100 y116 x124 y60 x28 y12 x4
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+x5 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y69 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x101 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+y117 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+x125 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y61 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x29 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+y13 is common in the cycles:
+x5 y69 x101 y117 x125 y61 x29 y13 x5
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+x6 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y70 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x102 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+y118 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x126 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y62 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x30 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+y14 is common in the cycles:
+x6 y70 x102 y118 x126 y62 x30 y14 x6
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x7 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+y71 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x103 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+y119 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x127 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+y63 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x31 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+y15 is common in the cycles:
+x7 y71 x103 y119 x127 y63 x31 y15 x7
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x8 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+y72 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x104 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+y120 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+x128 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+y64 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x32 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+y16 is common in the cycles:
+x8 y72 x104 y120 x128 y64 x32 y16 x8
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+x17 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+y81 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x113 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+y97 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+x105 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+y41 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x9 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+y25 is common in the cycles:
+x17 y81 x113 y97 x105 y41 x9 y25 x17
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+x18 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+y82 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x114 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+y98 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x106 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+y42 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x10 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+y26 is common in the cycles:
+x18 y82 x114 y98 x106 y42 x10 y26 x18
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x19 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y83 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x115 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+y99 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x107 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y43 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x11 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+y27 is common in the cycles:
+x19 y83 x115 y99 x107 y43 x11 y27 x19
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x20 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y84 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x116 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+y100 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+x108 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y44 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x12 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+y28 is common in the cycles:
+x20 y84 x116 y100 x108 y44 x12 y28 x20
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+x21 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y85 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x117 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+y101 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+x109 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y45 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x13 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+y29 is common in the cycles:
+x21 y85 x117 y101 x109 y45 x13 y29 x21
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+x22 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y86 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x118 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x115 y119 x117 y118 x118 y114 x116 y115 x115
+x116 y120 x118 y117 x117 y113 x115 y116 x116
+y102 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x110 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y46 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x14 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x11 y15 x13 y14 x14 y10 x12 y11 x11
+x12 y16 x14 y13 x13 y9 x11 y12 x12
+y30 is common in the cycles:
+x22 y86 x118 y102 x110 y46 x14 y30 x22
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x23 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+y87 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x119 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+y103 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x98 y102 x104 y103 x103 y99 x97 y98 x98
+x99 y103 x101 y102 x102 y98 x100 y99 x99
+x111 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+y47 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x15 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+y31 is common in the cycles:
+x23 y87 x119 y103 x111 y47 x15 y31 x23
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x26 y30 x32 y31 x31 y27 x25 y26 x26
+x27 y31 x29 y30 x30 y26 x28 y27 x27
+x24 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+y88 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x120 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x113 y117 x119 y120 x120 y116 x114 y113 x113
+x114 y118 x120 y119 x119 y115 x113 y114 x114
+y104 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x97 y101 x103 y104 x104 y100 x98 y97 x97
+x100 y104 x102 y101 x101 y97 x99 y100 x100
+x112 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+y48 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x16 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x9 y13 x15 y16 x16 y12 x10 y9 x9
+x10 y14 x16 y15 x15 y11 x9 y10 x10
+y32 is common in the cycles:
+x24 y88 x120 y104 x112 y48 x16 y32 x24
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x25 y29 x31 y32 x32 y28 x26 y25 x25
+x28 y32 x30 y29 x29 y25 x27 y28 x28
+x33 is common in the cycles:
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x65 is common in the cycles:
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x89 is common in the cycles:
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x57 is common in the cycles:
+x33 y97 x65 y81 x89 y25 x57 y41 x33
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x34 is common in the cycles:
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x66 is common in the cycles:
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x90 is common in the cycles:
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x58 is common in the cycles:
+x34 y98 x66 y82 x90 y26 x58 y42 x34
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x35 is common in the cycles:
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+x67 is common in the cycles:
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x91 is common in the cycles:
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+x59 is common in the cycles:
+x35 y99 x67 y83 x91 y27 x59 y43 x35
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x36 is common in the cycles:
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+x68 is common in the cycles:
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x92 is common in the cycles:
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+x60 is common in the cycles:
+x36 y100 x68 y84 x92 y28 x60 y44 x36
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x37 is common in the cycles:
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+x69 is common in the cycles:
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x93 is common in the cycles:
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+x61 is common in the cycles:
+x37 y101 x69 y85 x93 y29 x61 y45 x37
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x38 is common in the cycles:
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+x70 is common in the cycles:
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x67 y71 x69 y70 x70 y66 x68 y67 x67
+x68 y72 x70 y69 x69 y65 x67 y68 x68
+x94 is common in the cycles:
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+x62 is common in the cycles:
+x38 y102 x70 y86 x94 y30 x62 y46 x38
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x59 y63 x61 y62 x62 y58 x60 y59 x59
+x60 y64 x62 y61 x61 y57 x59 y60 x60
+x39 is common in the cycles:
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x71 is common in the cycles:
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x95 is common in the cycles:
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x63 is common in the cycles:
+x39 y103 x71 y87 x95 y31 x63 y47 x39
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x40 is common in the cycles:
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x72 is common in the cycles:
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x65 y69 x71 y72 x72 y68 x66 y65 x65
+x66 y70 x72 y71 x71 y67 x65 y66 x66
+x96 is common in the cycles:
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x64 is common in the cycles:
+x40 y104 x72 y88 x96 y32 x64 y48 x40
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x57 y61 x63 y64 x64 y60 x58 y57 x57
+x58 y62 x64 y63 x63 y59 x57 y58 x58
+x49 is common in the cycles:
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x81 is common in the cycles:
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x73 is common in the cycles:
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x41 is common in the cycles:
+x49 y113 x81 y65 x73 y9 x41 y57 x49
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x50 is common in the cycles:
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x82 is common in the cycles:
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x74 is common in the cycles:
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x42 is common in the cycles:
+x50 y114 x82 y66 x74 y10 x42 y58 x50
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x51 is common in the cycles:
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+x83 is common in the cycles:
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x75 is common in the cycles:
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+x43 is common in the cycles:
+x51 y115 x83 y67 x75 y11 x43 y59 x51
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x52 is common in the cycles:
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+x84 is common in the cycles:
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x76 is common in the cycles:
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+x44 is common in the cycles:
+x52 y116 x84 y68 x76 y12 x44 y60 x52
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x53 is common in the cycles:
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+x85 is common in the cycles:
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x77 is common in the cycles:
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+x45 is common in the cycles:
+x53 y117 x85 y69 x77 y13 x45 y61 x53
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x54 is common in the cycles:
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+x86 is common in the cycles:
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x83 y87 x85 y86 x86 y82 x84 y83 x83
+x84 y88 x86 y85 x85 y81 x83 y84 x84
+x78 is common in the cycles:
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+x46 is common in the cycles:
+x54 y118 x86 y70 x78 y14 x46 y62 x54
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x43 y47 x45 y46 x46 y42 x44 y43 x43
+x44 y48 x46 y45 x45 y41 x43 y44 x44
+x55 is common in the cycles:
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x87 is common in the cycles:
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x79 is common in the cycles:
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x47 is common in the cycles:
+x55 y119 x87 y71 x79 y15 x47 y63 x55
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+x56 is common in the cycles:
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x88 is common in the cycles:
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x81 y85 x87 y88 x88 y84 x82 y81 x81
+x82 y86 x88 y87 x87 y83 x81 y82 x82
+x80 is common in the cycles:
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x48 is common in the cycles:
+x56 y120 x88 y72 x80 y16 x48 y64 x56
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x41 y45 x47 y48 x48 y44 x42 y41 x41
+x42 y46 x48 y47 x47 y43 x41 y42 x42
+y1 is common in the cycles:
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y49 is common in the cycles:
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+y121 is common in the cycles:
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y73 is common in the cycles:
+x65 y1 x33 y49 x57 y121 x89 y73 x65
+x113 y49 x17 y1 x9 y73 x105 y121 x113
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+y2 is common in the cycles:
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+y50 is common in the cycles:
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+y122 is common in the cycles:
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+y74 is common in the cycles:
+x66 y2 x34 y50 x58 y122 x90 y74 x66
+x114 y50 x18 y2 x10 y74 x106 y122 x114
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+y3 is common in the cycles:
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+y51 is common in the cycles:
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+y123 is common in the cycles:
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+y75 is common in the cycles:
+x67 y3 x35 y51 x59 y123 x91 y75 x67
+x115 y51 x19 y3 x11 y75 x107 y123 x115
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+y4 is common in the cycles:
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y52 is common in the cycles:
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+y124 is common in the cycles:
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y76 is common in the cycles:
+x68 y4 x36 y52 x60 y124 x92 y76 x68
+x116 y52 x20 y4 x12 y76 x108 y124 x116
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+y5 is common in the cycles:
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y53 is common in the cycles:
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+y125 is common in the cycles:
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y77 is common in the cycles:
+x69 y5 x37 y53 x61 y125 x93 y77 x69
+x117 y53 x21 y5 x13 y77 x109 y125 x117
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+y6 is common in the cycles:
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+y54 is common in the cycles:
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+y126 is common in the cycles:
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+y78 is common in the cycles:
+x70 y6 x38 y54 x62 y126 x94 y78 x70
+x118 y54 x22 y6 x14 y78 x110 y126 x118
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+y7 is common in the cycles:
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x2 y6 x8 y7 x7 y3 x1 y2 x2
+x3 y7 x5 y6 x6 y2 x4 y3 x3
+y55 is common in the cycles:
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x50 y54 x56 y55 x55 y51 x49 y50 x50
+x51 y55 x53 y54 x54 y50 x52 y51 x51
+y127 is common in the cycles:
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x122 y126 x128 y127 x127 y123 x121 y122 x122
+x123 y127 x125 y126 x126 y122 x124 y123 x123
+y79 is common in the cycles:
+x71 y7 x39 y55 x63 y127 x95 y79 x71
+x119 y55 x23 y7 x15 y79 x111 y127 x119
+x74 y78 x80 y79 x79 y75 x73 y74 x74
+x75 y79 x77 y78 x78 y74 x76 y75 x75
+y8 is common in the cycles:
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x1 y5 x7 y8 x8 y4 x2 y1 x1
+x4 y8 x6 y5 x5 y1 x3 y4 x4
+y56 is common in the cycles:
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x49 y53 x55 y56 x56 y52 x50 y49 x49
+x52 y56 x54 y53 x53 y49 x51 y52 x52
+y128 is common in the cycles:
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x121 y125 x127 y128 x128 y124 x122 y121 x121
+x124 y128 x126 y125 x125 y121 x123 y124 x124
+y80 is common in the cycles:
+x72 y8 x40 y56 x64 y128 x96 y80 x72
+x120 y56 x24 y8 x16 y80 x112 y128 x120
+x73 y77 x79 y80 x80 y76 x74 y73 x73
+x76 y80 x78 y77 x77 y73 x75 y76 x76
+y17 is common in the cycles:
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y33 is common in the cycles:
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+y105 is common in the cycles:
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y89 is common in the cycles:
+x81 y17 x49 y33 x41 y105 x73 y89 x81
+x97 y33 x1 y17 x25 y89 x121 y105 x97
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+y18 is common in the cycles:
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+y34 is common in the cycles:
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+y106 is common in the cycles:
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+y90 is common in the cycles:
+x82 y18 x50 y34 x42 y106 x74 y90 x82
+x98 y34 x2 y18 x26 y90 x122 y106 x98
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+y19 is common in the cycles:
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+y35 is common in the cycles:
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+y107 is common in the cycles:
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+y91 is common in the cycles:
+x83 y19 x51 y35 x43 y107 x75 y91 x83
+x99 y35 x3 y19 x27 y91 x123 y107 x99
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+y20 is common in the cycles:
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y36 is common in the cycles:
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+y108 is common in the cycles:
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y92 is common in the cycles:
+x84 y20 x52 y36 x44 y108 x76 y92 x84
+x100 y36 x4 y20 x28 y92 x124 y108 x100
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+y21 is common in the cycles:
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y37 is common in the cycles:
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+y109 is common in the cycles:
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y93 is common in the cycles:
+x85 y21 x53 y37 x45 y109 x77 y93 x85
+x101 y37 x5 y21 x29 y93 x125 y109 x101
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x92 y96 x94 y93 x93 y89 x91 y92 x92
+y22 is common in the cycles:
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+y38 is common in the cycles:
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+y110 is common in the cycles:
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+y94 is common in the cycles:
+x86 y22 x54 y38 x46 y110 x78 y94 x86
+x102 y38 x6 y22 x30 y94 x126 y110 x102
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+y23 is common in the cycles:
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x18 y22 x24 y23 x23 y19 x17 y18 x18
+x19 y23 x21 y22 x22 y18 x20 y19 x19
+y39 is common in the cycles:
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x34 y38 x40 y39 x39 y35 x33 y34 x34
+x35 y39 x37 y38 x38 y34 x36 y35 x35
+y111 is common in the cycles:
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x106 y110 x112 y111 x111 y107 x105 y106 x106
+x107 y111 x109 y110 x110 y106 x108 y107 x107
+y95 is common in the cycles:
+x87 y23 x55 y39 x47 y111 x79 y95 x87
+x103 y39 x7 y23 x31 y95 x127 y111 x103
+x90 y94 x96 y95 x95 y91 x89 y90 x90
+x91 y95 x93 y94 x94 y90 x92 y91 x91
+y24 is common in the cycles:
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x17 y21 x23 y24 x24 y20 x18 y17 x17
+x20 y24 x22 y21 x21 y17 x19 y20 x20
+y40 is common in the cycles:
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x33 y37 x39 y40 x40 y36 x34 y33 x33
+x36 y40 x38 y37 x37 y33 x35 y36 x36
+y112 is common in the cycles:
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x105 y109 x111 y112 x112 y108 x106 y105 x105
+x108 y112 x110 y109 x109 y105 x107 y108 x108
+y96 is common in the cycles:
+x88 y24 x56 y40 x48 y112 x80 y96 x88
+x104 y40 x8 y24 x32 y96 x128 y112 x104
+x89 y93 x95 y96 x96 y92 x90 y89 x89
+x92 y96 x94 y93 x93 y89 x91 y92 x92
 >>> 
